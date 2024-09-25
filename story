@@ -1,0 +1,6 @@
+name = input("What is your name")
+print(input("What is your name "))
+print(input("What is your favorit city "))
+print(input("Who is your favorit celebrity "))
+print(input("What is your favorit thing to do"))
+print(input("What is your "))
