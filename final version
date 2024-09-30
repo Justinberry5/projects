@@ -1,0 +1,13 @@
+name = input("What is your name?")
+city = input("What is your favorite city?")
+thing = input("enter a noun that is an item")
+celeb = input("Who is your favorit celebrity ")
+favorit = input("What is your favorit thing to do ending with ing")
+verb_one = input("Enter a verb")
+verb_two = input("enter a verb")
+ad = input("enter an adjective")
+ad_two = input("enter another adjective")
+ad_three = input("enter your third adjective")
+
+print(name + " is in " + city + "." + name + " notices that LA looks " + ad)
+print("while in " + city + name)
