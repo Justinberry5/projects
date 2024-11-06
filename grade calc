@@ -11,3 +11,13 @@ for grades in range (num_g):
 Average = total/num_g
 print("Your average grade is")
 print(Average)
+if Average >= 90:
+    print('A')
+if  80 <= Average < 90:
+    print('B')
+if 70 <= Average < 80:
+    print('C')
+if 60 <= Average < 70:
+    print('D')
+if 0 <= Average < 60:
+    print('F')
