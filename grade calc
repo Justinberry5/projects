@@ -1,0 +1,13 @@
+list_grades = []
+num_g = int(input("Enter the amount of grades"))
+total = 0
+
+for grades in range (num_g):
+    Grades = input("enter grades:")
+    total = total + int(Grades) 
+  
+
+
+Average = total/num_g
+print("Your average grade is")
+print(Average)
