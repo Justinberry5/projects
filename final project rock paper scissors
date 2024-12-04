@@ -1,0 +1,24 @@
+import random
+print("Get ready to play the game")
+#what useres chose 
+weapon = input("Enter your weapon sword axe or knife ")
+#list of choiceses 
+weapons = ["sword", "axe", "knife"]
+#what the computer chooses 
+ai = (random.choice(weapons))
+# knife beats axe, axe beats sword, sword beats knife
+#knife=rock     axe= scicores   sword=paper
+l = 'Youuuuuuuu Loseeeeeee'
+print("You used " + weapon + " I used " + ai)
+
+
+if ai == weapon:
+        print('We tie try agian')
+elif weapon == 'knife' and ai == 'sword':
+        print(l + ' Sword out reaches your knife')
+elif weapon == 'sword' and ai == 'axe':
+        print(l + ' Axe slams through your sword')
+elif weapon == 'axe' and ai == 'knife':
+        print(l + ' Knife is faster then your axe')
+else:
+        print('Youuuu Winnnn')
